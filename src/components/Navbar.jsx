@@ -149,7 +149,7 @@ const Navbar = ({ isloggedin, setIsloggedin, user, setUser }) => {
             <Box
               sx={{
                 flexGrow: 1,
-                display: { xs: "none", md: "flex", justifyContent: "flex-end" },
+                display: { md: "flex", justifyContent: "flex-end" },
               }}
             >
               <Tooltip title="Open settings">
@@ -181,6 +181,7 @@ const Navbar = ({ isloggedin, setIsloggedin, user, setUser }) => {
               </Menu>
             </Box>
           )}
+
         </Toolbar>
       </Container>
     </AppBar>
